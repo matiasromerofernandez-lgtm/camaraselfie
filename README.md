@@ -1,34 +1,11 @@
-# camaraselfie
+# Repuestos de Dios — Instalación 3D
 
-Interfaz interactiva de **Reconocimiento Facial 3D** con perfilado de consumo algorítmico.
+Modelo 3D orbital interactivo de la instalación artística **«Repuestos de Dios»**, de **Matías Romero**.
 
-Inspirado en la estética de vigilancia de Trevor Paglen.
+## 🎨 Características
+- Visualización 3D interactiva con cámara orbital.
+- Modelo embebido e iluminación personalizada.
+- Controles de navegación y giro automático.
 
-## Cómo usar
-
-Abrí `index.html` en tu navegador o ejecutá:
-```bash
-./run_server.command   # macOS/Linux
-run_server.bat         # Windows
-```
-
-## Funcionalidades
-
-- **Malla facial 3D** con 16 secciones geométricas (Three.js)
-- **Texturización Sobel 3D** — detección de bordes proyectada sobre el rostro
-- **Perfilado de consumo** — 11 rasgos + 8 marcas predichas
-- **Sliders interactivos**: deriva de cámara, corrupción, deconstrucción, umbral Sobel, tonalidad cromática
-- **Captura PNG** del canvas 3D
-- **Audio sintetizado** (Web Audio API)
-- **HUD táctico** con gráfico de nodos topológicos y stream biométrico
-
-## Tecnologías
-
-- Three.js r128 (CDN)
-- Vanilla JS + CSS
-- Web Audio API
-- Filtro Sobel pixel-por-pixel
-
-## Licencia
-
-MIT
+## 🚀 Despliegue
+Puedes ver la experiencia interactiva abriendo `index.html` en cualquier navegador web moderno o activando **GitHub Pages** en la configuración del repositorio.
